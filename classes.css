@@ -1,0 +1,37 @@
+.main_classes img{
+    
+    height: 100px;
+    width: inherit;
+   border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-image: auto;
+}
+ .main_classes {
+    display: flex;
+    height: inherit;
+    width: 100px;
+} 
+#basketball {
+    
+    background-color:greenyellow; /* background color */
+    color: white; /* text color */
+   
+}
+#swimming {
+   
+    background-color:chocolate; /* background color */
+    color:cyan; /*  text color */
+    
+}
+#robotics {
+    
+    background-color:darkmagenta; /* background color */
+    color: wheat; /*  text color */
+}
