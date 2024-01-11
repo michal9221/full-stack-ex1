@@ -26,12 +26,27 @@
 }
 #swimming {
    
-    background-color:chocolate; /* background color */
+    background-color:orange; /* background color */
     color:cyan; /*  text color */
     
 }
 #robotics {
     
-    background-color:darkmagenta; /* background color */
+    background-color:purple; /* background color */
     color: wheat; /*  text color */
+}
+#chess{
+    background-color: red; /* background color */
+    color: bisque;/* text color */
+}
+#craftsmanship {
+    background-color:yellow; /* background color */
+    color: #181515cc; /* text color */
+}
+#theater {
+    background-color:deeppink; /* background color */
+    color: darkkhaki; /* color */
+}
+#logo {
+    height: 100px; /* height*/
 }
