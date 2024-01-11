@@ -16,44 +16,64 @@
             alt="לוגו עירייה"></img>
         <h1>מערכת חוגים למלונות המפונים</h1>
         <h2>ברוכים הבאים לאתר:)</h2>
-        <p>עיריית ירושלים מקדמת בברכה את המפונים מקו האש, יחד ננצח! </p>
+        <h3>עיריית ירושלים מקדמת בברכה את המפונים מקו האש, יחד ננצח! </h3>
     </header>
 
     <main>
-        <section class="main_classes">
+        <div>
 
-            <figure id="basketball">
-                <img src="https://img.fruugo.com/product/0/36/208800360_max.jpg" alt="חוג כדורסל">
-                <div> <a href="basketball.html">חוג כדורסל-לפרטים והרשמה</a></div>
-            </figure>
+            <table class="main_classes">
+                <tr>
+                    <th>
+                        <figure id="basketball">
+                            <img src="https://img.fruugo.com/product/0/36/208800360_max.jpg" alt="חוג כדורסל">
+                            <div> <a href="basketball.html">חוג כדורסל-לפרטים והרשמה</a></div>
+                        </figure>
+                    </th>
+                    <th>
+                        <figure id="swimming">
+                            <img src="https://space-cn.co.il/wp-content/uploads/2016/03/pool-bg.jpg" alt="חוג שחייה">
+                            <div id="swimming"> <a href="swimming.html">חוג שחייה-לפרטים והרשמה</a></div>
+                        </figure>
+                    </th>
 
-            <figure id="swimming">
-                <img src="https://space-cn.co.il/wp-content/uploads/2016/03/pool-bg.jpg" alt="חוג שחייה">
-                <div id="swimming"> <a href="swimming.html">חוג שחייה-לפרטים והרשמה</a></div>
-            </figure>
+                    <th>
+                        <figure id="robotics">
+                            <img src="https://cdn.theatlantic.com/thumbor/8zkr6AykYSHiXD6rpfrm7N0cTv8=/302x50:4317x2308/1952x1098/media/img/mt/2014/08/shutterstock_187027727-1/original.jpg"
+                                alt="חוג רובוטיקה">
+                            <div id="robotics"> <a href="robotics.html">חוג רובוטיקה-לפרטים והרשמה</a></div>
+                        </figure>
+                    </th>
+                </tr>
 
-            <figure id="robotics">
-                <img src="https://cdn.theatlantic.com/thumbor/8zkr6AykYSHiXD6rpfrm7N0cTv8=/302x50:4317x2308/1952x1098/media/img/mt/2014/08/shutterstock_187027727-1/original.jpg"
-                    alt="חוג רובוטיקה">
-                <div id="robotics"> <a href="robotics.html">חוג רובוטיקה-לפרטים והרשמה</a></div>
+                <tr>
+                    <th>
+                        <figure id="chess">
+                            <img src="https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392,f_auto/v1666523523/direct/shutterstock_769274512_n1tio9.jpg"
+                                alt="חוג שחמט">
+                            <div id="chess"> <a href="chess.html">חוג שחמט-לפרטים והרשמה</a></div>
+                        </figure>
+                    </th>
 
-                <br>
-            </figure>
-            <figure id="chess">
-                <img src="https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392,f_auto/v1666523523/direct/shutterstock_769274512_n1tio9.jpg"
-                    alt="חוג שחמט">
-                <div id="chess"> <a href="chess.html">חוג שחמט-לפרטים והרשמה</a></div>
-            </figure>
-            <figure id="craftsmanship"> <img id="craftsmanship"
-                    src="https://www.pnay.org.il/productImages2/201/2023/09/21/image1695303184.jpg" alt="חוג אומנות">
-                <div id="craftsmanship"> <a href="craftsmanship.html">חוג אומנות-לפרטים והרשמה</a></div>
-            </figure>
-            <figure id="gym">
-                <img src="https://www.elmahotel.co.il/wp-content/uploads/sites/6/2019/12/%D7%97%D7%93%D7%A8-%D7%9B%D7%95%D7%A9%D7%A8.jpg"
-                    alt="חדר כושר">
-                <div id="theater"> <a href="theater.html">חדר כושר</a></div>
-            </figure>
-        </section>
+                    <th>
+                        <figure id="craftsmanship"> <img id="craftsmanship"
+                                src="https://www.pnay.org.il/productImages2/201/2023/09/21/image1695303184.jpg"
+                                alt="חוג אומנות">
+                            <div id="craftsmanship"> <a href="craftsmanship.html">חוג אומנות-לפרטים והרשמה</a></div>
+                        </figure>
+                    </th>
+
+                    <th>
+                        <figure id="gym">
+                            <img src="https://www.elmahotel.co.il/wp-content/uploads/sites/6/2019/12/%D7%97%D7%93%D7%A8-%D7%9B%D7%95%D7%A9%D7%A8.jpg"
+                                alt="חדר כושר">
+                            <div id="theater"> <a href="theater.html">חדר כושר</a></div>
+                        </figure>
+                    </th>
+                </tr>
+
+            </table>
+        </div>
     </main>
 
     <p id="By">האתר נבנה ע''י @Avital&Michal ליצירת קשר:</p>
@@ -68,46 +88,48 @@
     <form id="contact">
         <p>יצירת קשר @Avital&Michal</p>
         <!--שם מלא-->
-        <section class="flname">
+        <div class="flname">
             <label for="flname">שם מלא</label>
             <input type="text" name="flname" required>
-        </section>
+        </div>
         <br>
 
         <!--נושא הפניה-->
-        <section class="subject">
+        <div class="subject">
             <label for="gender">נושא</label>
             <input type="radio" name="subject" value="Technical Support"><label for="subject">תמיכה טכנית</label>
             <input type="radio" name="subject" value="Design order"><label for="subject">הזמנת עיצוב</label>
             <input type="radio" name="subject" value="other"><label for="subject">אחר (אנא פרט בתיבה למטה)</label>
-        </section>
+        </div>
         <br>
 
         <!--הערות-->
 
-        <section class="interest">
+        <div class="interest">
             <label for="interest">הערות</label>
             <textarea rows="10" cols="30" name="comment"></textarea>
-        </section>
+        </div>
         <br>
 
         <!--אישור תנאי שימוש-->
-        <section class="agree">
+        <div class="agree">
             <span>קראתי ואני מאשר את תנאי השימוש באתר</span>
             <input id="yes" type="radio" name="agree" value="yes">
             <label for="yes">כן</label>
             <input id="no" type="radio" name="agree" value="yes">
             <label for="no">לא</label>
             <!--<option type="agree" value="agree"></option>-->
-        </section>
-        <br>
-        <p>צוות האתר ישתדל לחזור אליכם כמה שיותר מהר (עד 5 ימים) עקב ריבוי פניות אנא העזרו בסבלנות,עמכן הסליחה.</p>
+        </div>
+        <br><p>צוות האתר יחזור אליכם תוך 5 ימי עסקים
+            <br />
+            עקב ריבוי פניות אנא העזרו בסבלנות, עמכם הסליחה.
+        </p>
         <br>
 
         <!--כפתור שליחה-->
-        <section class="submission">
+        <div class="submission">
             <input type="submit" value="Submit">
-        </section>
+        </div>
 
     </form>
 

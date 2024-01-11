@@ -5,98 +5,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>הרשמה</title>
-    <!--<link rel="stylesheet" href="">להוסיף עיצוב-->
+    <link rel="stylesheet" href="classes.css">
 </head>
 
 <body>
     <form>
-<p>הרשמה לחוגי חירום מפונים </p>
-        <!--שם פרטי-->
-        <section class="fname">
-            <label for="fname">שם פרטי</label>
+        <p>הרשמה לחוגי חירום מפונים </p>
 
-            <input type="text" name="fname" required>
-        </section>
-        <br>
-
-        <!--שם משפחה-->
-        <section class="lname">
-            <label for="lname">שם משפחה</label>
-            <input type="text" name="lname" required>
-        </section>
-        <br>
-
-        <!--חוג בחירה-->
-    
-        <section class="classes">
-            <span>איזה חוגים תרצה לבחור?</span>
+        <section class="sign">
+            <!--שם פרטי-->
+            <div class="fname">
+                <label for="fname">שם פרטי</label>
+                <input type="text" name="fname" required>
+            </div>
             <br>
-        <input type="checkbox" name="classes" id="basketball" value="basketball">
-        <label for="basketball">כדורגל</label>
-        <input type="checkbox" name="classes" id="swimming" value="swimming">
-        <label for="swimming">שחיה</label>
-        <input type="checkbox" name="classes" id="onion" value="onion">
-        <label for="robotic">רובטיקה</label>
-        <input type="checkbox" name="classes" id="onion" value="onion">
-        <label for="theater">תאטרון</label>
-        <input type="checkbox" name="classes" id="onion" value="onion">
-        <label for="chess">שחמט</label>
-        <input type="checkbox" name="classes" id="onion" value="onion">
-        <label for="craftsmanship">אומנות</label>
+
+            <!--שם משפחה-->
+            <section class="lname">
+                <label for="lname">שם משפחה</label>
+                <input type="text" name="lname" required>
+            </section>
+            <br>
+
+            <!--חוג בחירה-->
+
+            <section class="classes">
+                <span>איזה חוגים תרצה לבחור?</span>
+                <br>
+                <input type="checkbox" name="classes" id="basketball" value="basketball">
+                <label for="basketball">כדורגל</label>
+                <br>
+                <input type="checkbox" name="classes" id="swimming" value="swimming">
+                <label for="swimming">שחיה</label>
+                <br />
+                <input type="checkbox" name="classes" id="robotic" value="robotic">
+                <label for="robotic">רובטיקה</label>
+                <br />
+                <input type="checkbox" name="classes" id="theater" value="theater">
+                <label for="theater">תאטרון</label>
+                <br />
+                <input type="checkbox" name="classes" id="chess" value="chess">
+                <label for="chess">שחמט</label>
+                <br />
+                <input type="checkbox" name="classes" id="gym" value="gym">
+                <label for="gym">חדר כושר</label>
+            </section>
+
+            <!--גיל-->
+            <section class="age">
+                <label for="age">גיל</label>
+                <input type="number" min="9" max="16">
+            </section>
+            <br>
+
+
+            <!--קבוצה-->
+            <section class="gender">
+                <label for="gender">קבוצה</label>
+                <input type="radio" name="gender" value="male"><label for="gender">גברים</label>
+                <input type="radio" name="gender" value="female"><label for="gender">נשים</label>
+            </section>
+            <br>
+
+            <!--רמה-->
+            <section class="level">
+                <label for="level">רמה</label>
+                <input list="level" required>
+                <datalist id="level">
+                    <option value="מתחיל">מתחיל</option>
+                    <option value="מתקדם">מתקדם</option>
+                    <option value="מומחה">מומחה</option>
+                </datalist>
+            </section>
+            <br>
+
+            <!--הערות-->
+
+            <section class="interest">
+                <label for="interest">הערות</label>
+                <textarea rows="10" cols="30" name="comment"></textarea>
+            </section>
+            <br>
+
+            <!--אישור תנאי שימוש-->
+            <section class="agree">
+                <span>קראתי ואני מאשר את תנאי השימוש באתר</span>
+                <input id="yes" type="radio" name="agree" value="yes">
+                <label for="yes">כן</label>
+                <input id="no" type="radio" name="agree" value="yes">
+                <label for="no">לא</label>
+                <!--<option type="agree" value="agree"></option>-->
+            </section>
+            <br>
+
+            <!--כפתור שליחה-->
+            <section class="submission">
+                <input type="submit" value="Submit">
+            </section>
+
         </section>
-
-        <!--גיל-->
-        <section class="age">
-            <label for="age">גיל</label>
-            <input type="number" min="9" max="16">
-        </section>
-        <br>
-
-
-        <!--קבוצה-->
-        <section class="gender">
-            <label for="gender">קבוצה</label>
-            <input type="radio" name="gender" value="male"><label for="gender">גברים</label>
-            <input type="radio" name="gender" value="female"><label for="gender">נשים</label>
-        </section>
-        <br>
-
-        <!--רמה-->
-        <section class="level">
-            <label for="level">רמה</label>
-            <input list="level" required>
-            <datalist id="level">
-                <option value="מתחיל">מתחיל</option>
-                <option value="מתקדם">מתקדם</option>
-                <option value="מומחה">מומחה</option>
-            </datalist>
-        </section>
-        <br>
-
-        <!--הערות-->
-
-        <section class="interest">
-            <label for="interest">הערות</label>
-            <textarea rows="10" cols="30" name="comment"></textarea>
-        </section>
-        <br>
-
-        <!--אישור תנאי שימוש-->
-        <section class="agree">
-            <span>קראתי ואני מאשר את תנאי השימוש באתר</span>
-            <input id="yes" type="radio" name="agree" value="yes">
-            <label for="yes">כן</label>
-            <input id="no" type="radio" name="agree" value="yes">
-            <label for="no">לא</label>
-            <!--<option type="agree" value="agree"></option>-->
-        </section>
-        <br>
-
-        <!--כפתור שליחה-->
-        <section class="submission">
-            <input type="submit" value="Submit">
-        </section>
-
     </form>
 </body>
 

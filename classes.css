@@ -1,3 +1,9 @@
+/* body {
+    text-align: center;
+} */
+h1, h2, h3{
+    text-align: center;
+}
 .main_classes img{
     
     height: 100px;
@@ -10,8 +16,8 @@
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    text-decoration: none;
-    border-image: auto;
+    /* text-decoration: none; */
+    /* border-image: auto; */
 }
  .main_classes {
     display: flex;
@@ -52,19 +58,39 @@
 }
 
 
+.main_classes{
+    text-align: center;
+    /* border: 1px solid black;
+    margin: 0 auto;  */
+    width: 100%;
+}
 
-table {
+.timeGym {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-th, td {
+.timeGym th, .timeGym td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
 
-th {
+.timeGym th {
     background-color: #f2f2f2;
+}
+/* #sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 614px;
+    width: 503px;
+    background: #FFFFFF;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 3em;
+} */
+.classes{
+    text-align: right;
 }
