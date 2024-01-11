@@ -32,7 +32,7 @@
 }
 #robotics {
     
-    background-color:purple; /* background color */
+    background-color:rgb(217, 32, 217); /* background color */
     color: wheat; /*  text color */
 }
 #chess{
@@ -43,10 +43,28 @@
     background-color:yellow; /* background color */
     color: #181515cc; /* text color */
 }
-#theater {
+#gym {
     background-color:deeppink; /* background color */
     color: darkkhaki; /* color */
 }
 #logo {
     height: 100px; /* height*/
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
 }
