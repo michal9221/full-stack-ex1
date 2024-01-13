@@ -16,20 +16,20 @@
             <!--שם פרטי-->
             <div class="fname">
                 <label for="fname">שם פרטי</label>
-                <input type="text" name="fname" required>
+                <input type="text" id="fname" name="fname" required>
             </div>
             <br>
 
             <!--שם משפחה-->
-            <section class="lname">
+            <div class="lname">
                 <label for="lname">שם משפחה</label>
-                <input type="text" name="lname" required>
-            </section>
+                <input type="text" id="lname" name="lname" required>
+            </div>
             <br>
 
             <!--חוג בחירה-->
 
-            <section class="classes">
+            <div class="classes">
                 <span>איזה חוגים תרצה לבחור?</span>
                 <br>
                 <input type="checkbox" name="classes" id="basketball" value="basketball">
@@ -41,67 +41,67 @@
                 <input type="checkbox" name="classes" id="robotic" value="robotic">
                 <label for="robotic">רובטיקה</label>
                 <br />
-                <input type="checkbox" name="classes" id="theater" value="theater">
-                <label for="theater">תאטרון</label>
+                <input type="checkbox" name="classes" id="craftsmanship" value="craftsmanship">
+                <label for="craftsmanship">אומנות</label>
                 <br />
                 <input type="checkbox" name="classes" id="chess" value="chess">
                 <label for="chess">שחמט</label>
                 <br />
                 <input type="checkbox" name="classes" id="gym" value="gym">
                 <label for="gym">חדר כושר</label>
-            </section>
+            </div>
 
             <!--גיל-->
-            <section class="age">
+            <div class="age">
                 <label for="age">גיל</label>
-                <input type="number" min="9" max="16">
-            </section>
+                <input id="age" type="number" min="9" max="16">
+            </div>
             <br>
 
 
             <!--קבוצה-->
-            <section class="gender">
+            <div class="gender">
                 <label for="gender">קבוצה</label>
-                <input type="radio" name="gender" value="male"><label for="gender">גברים</label>
-                <input type="radio" name="gender" value="female"><label for="gender">נשים</label>
-            </section>
+                <input type="radio" id="gender" value="male"><label for="gender">גברים</label>
+                <input type="radio" id="gender" name="gender" value="female"><label for="gender">נשים</label>
+            </div>
             <br>
 
             <!--רמה-->
-            <section class="level">
+            <div class="level">
                 <label for="level">רמה</label>
-                <input list="level" required>
+                <input list="level" id="level" required>
                 <datalist id="level">
                     <option value="מתחיל">מתחיל</option>
                     <option value="מתקדם">מתקדם</option>
                     <option value="מומחה">מומחה</option>
                 </datalist>
-            </section>
+            </div>
             <br>
 
             <!--הערות-->
 
-            <section class="interest">
+            <div class="interest">
                 <label for="interest">הערות</label>
-                <textarea rows="10" cols="30" name="comment"></textarea>
-            </section>
+                <textarea rows="10" cols="30" id="interest" name="comment"></textarea>
+            </div>
             <br>
 
             <!--אישור תנאי שימוש-->
-            <section class="agree">
+            <div class="agree">
                 <span>קראתי ואני מאשר את תנאי השימוש באתר</span>
                 <input id="yes" type="radio" name="agree" value="yes">
                 <label for="yes">כן</label>
                 <input id="no" type="radio" name="agree" value="yes">
                 <label for="no">לא</label>
                 <!--<option type="agree" value="agree"></option>-->
-            </section>
+            </div>
             <br>
 
             <!--כפתור שליחה-->
-            <section class="submission">
+            <div class="submission">
                 <input type="submit" value="Submit">
-            </section>
+            </div>
 
         </section>
     </form>
