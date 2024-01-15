@@ -111,14 +111,12 @@ h1, h2, h3{
 
 } */
 aside{
-    position: absolute;
-    top: 0;
-    right: -150px; /* Adjust the distance from the right */
-    background-color: #f1f1f1;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 120px; /* Adjust the width of the bubble */
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
 }
 /* aside ul{
     list-style-type: none;
